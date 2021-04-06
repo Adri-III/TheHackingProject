@@ -1,0 +1,190 @@
+html
+	{
+		height: 100% ;
+		width: 100% ;
+	}
+
+body
+	{
+		font-family: arial, sans serif ;
+		font-size: small ;
+	}
+
+a:link
+	{
+		text-decoration: none ;
+		color: grey ;
+	}
+
+a:hover
+	{
+		text-decoration: underline ;
+	}
+
+a:visited
+	{
+		text-decoration: none ;
+	}
+
+header
+	{
+		display: flex ;
+		flex-direction: row ;
+		justify-content: flex-end ;
+		padding: 5px ;
+	}
+
+#conteneurHeader
+	{
+		display: flex;
+		justify-content: flex-end;
+		padding: 5px;
+		font-size: small;
+	}
+
+.Gmail
+	{
+		margin: 15px ;
+		color: black ;
+		padding: 5px ;
+	}
+
+.Images
+	{
+		margin: 15px ;
+		text-decoration: none ;
+		color: black ;
+		padding: 5px ;
+	}
+
+.Application
+	{
+		margin: 12px ;
+	}
+	
+.Application:hover
+	{
+		box-shadow: 1px 1px 10px rgb(206, 205, 205) ;
+	}
+
+header button
+	{
+		background-color: #039AEB ;
+		margin: 15px ;
+		height: 30px ; 
+		width: 90px ;
+		color: white ;
+		border: #039AEB ;
+		border-radius: 3px ;
+	}
+
+#main
+	{
+		display: flex ;
+		justify-content: center ;
+		align-items: center ;
+		flex-direction: column ;
+	}
+p
+	{
+		margin: 20 ;
+		padding: 0 ;
+	}
+
+button
+	{
+		border-radius: 3px;
+		border: #FFFFFF ;
+		height: 40px ;
+		margin-top: 25px ;
+		margin-left: 5px ;
+	}
+
+button:hover
+	{
+		border: solid rgb(197, 196, 196) 0.1em ;
+		box-shadow: 1px 1px 10px rgb(206, 205, 205) ;
+	}
+
+input
+	{
+		display: block;
+		margin: 0 auto ;
+		margin-top: 20px ;
+		height: 40px ;
+		width: 550px ;
+		border: solid 2px ; 
+		border-radius: 50px ;
+		border-color: #EBE9E9 ;
+		outline-style: none ;
+		border: solid rgb(197, 196, 196) 0.1em ;
+	}
+
+input:hover
+	{
+		box-shadow: 1px 1px 10px rgb(206, 205, 205) ;
+	}
+
+footer
+	{
+		background-color: #F2F2F2 ;
+		display: flex ;
+		flex-direction: column ;
+		position: absolute ;
+		bottom: 0 ;
+		width: 100% ;
+		font-size: 15px ;
+		color: rgba(0,0,0,.54) ;
+		font-size: small 10px ;
+		color: grey ;	
+	}
+
+.FooterOne
+	{
+		border-bottom: solid 1px ;
+		border-top: solid 1px ;
+		padding-left: 40px ;
+		border-color: #EBE9E9 ;
+	}
+
+.Carbone
+	{
+		height: 20px ;
+		display: flex ;
+		justify-content: center ;
+	}
+
+.FooterTwo
+	{
+		display: flex ;
+		flex-direction: row ;
+		justify-content: space-between ;
+		margin-left: 0px ;
+		margin-right: 40px ;
+		height: 50px ;
+	}
+
+ul
+	{
+		display: flex ;
+		flex-direction: row ;
+	}
+
+li
+	{
+		margin: 10px ;
+	}
+
+footer ul li
+	{
+		list-style: none ;
+		margin-left: 0px ;
+		margin-right: 20px ;
+	}
+
+
+
+
+
+
+
